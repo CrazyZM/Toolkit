@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="size_dp_0">0dp</dimen>
+    <dimen name="border">4dp</dimen>
+    <dimen name="border_half">4dp</dimen>
+    <dimen name="shapeCorner">4dp</dimen>
+    <dimen name="shapeStroke">1px</dimen>
+    <dimen name="line_thin">1px</dimen>
+    <dimen name="line_thick">2px</dimen>
+    <dimen name="clock_size">160dp</dimen>
+    <dimen name="clock_size1">170dp</dimen>
+    <dimen name="size_dp_10">10dp</dimen>
+    <dimen name="size_dp_5">5dp</dimen>
+    <dimen name="size_dp_30">30dp</dimen>
+    <dimen name="size_dp_40">40dp</dimen>
+
+    <dimen name="ui_10_dip">10dip</dimen>
+    <dimen name="textSize12">12sp</dimen>
+    <dimen name="textSize14">14sp</dimen>
+    <dimen name="textSize16">16sp</dimen>
+    <dimen name="textSize15">15sp</dimen>
+    <dimen name="textSize18">18sp</dimen>
+    <dimen name="textSize23">23sp</dimen>
+    <dimen name="text_size_baseTitle">@dimen/textSize15</dimen>
+
+    <dimen name="actionbarHight">45dp</dimen>
+    <dimen name="actionBar_icon_size">36dp</dimen>
+    <dimen name="actionBar_menuWidth">48dp</dimen>
+    <dimen name="main_activity_top_menu_text_size">15dp</dimen> <!-- 首页顶部菜单字体大小 -->
+</resources>

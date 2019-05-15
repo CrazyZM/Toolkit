@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionBar_ll"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionbarHight"
+    android:background="@color/black_b"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:id="@+id/actionBar_back_ll"
+        android:layout_width="@dimen/actionbarHight"
+        android:layout_height="@dimen/actionbarHight"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:onClick="onBackPressed"
+        android:paddingTop="@dimen/border"
+        android:paddingEnd="@dimen/border"
+        android:paddingBottom="@dimen/border">
+
+        <ImageView
+            android:id="@+id/actionBar_back_backIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/back_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/actionBar_menu_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:background="@color/transparent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/actionBar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:width="200dip"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_baseTitle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black" />
+</RelativeLayout>
